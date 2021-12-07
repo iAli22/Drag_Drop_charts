@@ -1,6 +1,6 @@
 # Components Tree
 
-  <App>
+  <!-- <App>
     <SideBar />
     <MainBody> 
       ## BodyContextProvider 
@@ -10,7 +10,7 @@
         <ChartsContainer />
       ## BodyContextProvider
     </MainBody> 
-  </App>
+  </App> -->
 
 # Drag And Drop With Charts.js TodoList
 
