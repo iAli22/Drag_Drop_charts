@@ -1,16 +1,11 @@
 # Components Tree
 
-  <!-- <App>
-    <SideBar />
-    <MainBody> 
-      ## BodyContextProvider 
-        <InputsContainer>
-          <InputTags />
-        </InputsContainer>
-        <ChartsContainer />
-      ## BodyContextProvider
-    </MainBody> 
-  </App> -->
+- App
+  - SideBar
+  - MainBody => Context Provider
+    - InputsContainer
+      - InputTags
+    - ChartsContainer
 
 # Drag And Drop With Charts.js TodoList
 
