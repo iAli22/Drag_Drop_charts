@@ -1,0 +1,17 @@
+.sideBar {
+  .header {
+    border: 1px solid #ddd;
+    padding: 1rem 0.5rem;
+  }
+  .colItems {
+    padding: 1rem 0.5rem;
+
+    li {
+      font-size: 18px;
+      cursor: move;
+      &:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+}

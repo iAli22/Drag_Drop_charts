@@ -1,0 +1,13 @@
+/*  general  Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* general  Style */
+
+.app {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+}

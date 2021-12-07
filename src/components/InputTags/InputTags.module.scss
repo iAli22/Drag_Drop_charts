@@ -1,0 +1,58 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .inputLabel {
+    margin-right: 1rem;
+    display: inline-block;
+    text-transform: capitalize;
+    min-width: 100px;
+  }
+
+  .tagContainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    width: 100%;
+    position: relative;
+    min-height: 45px;
+
+    .tag {
+      display: inline-block;
+      border: 1px solid #ddd;
+      padding: 0.1rem 1rem;
+      font-size: 18px;
+
+      &:not(:last-child) {
+        margin-right: 0.5rem;
+      }
+    }
+    .tagPlaceHolder {
+      opacity: 0.5;
+    }
+    .clearBtn {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      top: 0;
+      padding: 0 1rem;
+      border-radius: 0;
+      background: none;
+      border: 1px solid #ddd;
+      cursor: pointer;
+    }
+  }
+}
+
+.dragWrong {
+  .tagContainer {
+    border: 1px solid red !important;
+    cursor: not-allowed !important;
+  }
+
+  .inputLabel {
+    color: red;
+  }
+}
